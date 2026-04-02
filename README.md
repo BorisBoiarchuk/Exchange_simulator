@@ -93,9 +93,7 @@ Matching follows:
 
 Prices are sampled using a log-normal model:
 
-[
-price = \mu \cdot e^{X - \frac{1}{2}\sigma^2}, \quad X \sim \mathcal{N}(0, \sigma)
-]
+price = mu * exp(X - 0.5 * sigma^2), where X ~ Normal(0, sigma)
 
 This creates realistic, skewed price movements around a mean.
 
